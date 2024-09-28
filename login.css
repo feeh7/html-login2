@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
@@ -101,4 +102,109 @@ body {
 .border-background a {
     color: white;
     text-decoration: none;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    background-image: url(ab.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    border: 4px solid rgba(255, 255, 255, 0.2);
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    background-color: rgba(50, 50, 50, 0.7);
+    font-family: Arial, sans-serif;
+}
+
+
+#click {
+    color: rgb(255, 255, 255);
+}
+
+#email {
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+#senha {
+    color: rgb(255, 255, 255);
+}
+
+#inpass {
+    color: rgb(134, 130, 130);
+    width: 400px;
+    border-color: black;
+    border-radius: 20px;
+}
+
+#inemail {
+    color: rgb(134, 130, 130);
+    width: 400px;
+    border-color: black;
+    border-radius: 20px;
+}
+
+#box {
+    margin-left: -23.5px;
+}   
+
+#all {
+    width: 450px; 
+    height: 270px; 
+}
+
+#txt {
+    font-family: 'Roboto', sans-serif;
+    margin-top: -20px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#txt {
+    font-family: 'Roboto', sans-serif;
+    margin-top: -20px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#txt2 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: -34px;
+    margin-left: 95px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-background {
+    padding: 5px 10px; 
+    border: 2px solid rgba(255, 255, 255, 0.8); 
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px; 
+
+}
+
+.border-background a {
+    color: white;
+    text-decoration: none;
+>>>>>>> ba477000d2e881d71dd87a4a4b545dcd7dbfc6c2
 }
