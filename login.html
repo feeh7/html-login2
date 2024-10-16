@@ -8,29 +8,29 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div id="all" class="form-container">
+    <div id="all" class="form-container border-background">
+        <div id="erro"></div>
+        <div id="sucesso"></div>
         <h1 id="txt">Entrar</h1>
-        <form>
+        <form onsubmit="cadastrar(event)">
             <div class="form-group">
-                <label id="email" for="exampleInputEmail1">Digite seu email</label>
-                <input id="inemail"type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+                <label id="email" for="inemail">Digite seu email</label>
+                <input id="inemail" class="form-control" placeholder="Seu email">
             </div>
             <div class="form-group">
-                <label id="senha" for="exampleInputPassword1">Digite sua senha</label>
-                <input id="inpass"type="password" class="form-control" placeholder="Senha">
+                <label id="senha" for="inpass">Digite sua senha</label>
+                <input id="inpass" type="password" class="form-control" placeholder="Senha">
             </div>
-            <div id="ab"class="form-group form-check">
-                <input id="box" type="checkbox">
-                <label id="click" for="exampleCheck1" class="olho">Mostrar senha</label>
+            <div id="ab" class="form-group form-check">
+                <input id="box" type="checkbox" class="form-check-input">
+                <label id="click" for="box" class="form-check-label">Mostrar senha</label>
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
-        <span id="txt2"class="border-background">
-            <a href="https://logifeh.netlify.app/">Clique aqui para cadastrar</a>
+        <span id="txt2" class="border-background">
+            <a href="">Clique para criar conta</a>
         </span>
     </div>
     <script src="login.js"></script>
 </body>
 </html>
-
-<!-- Aqui utilizei a biblioteca do bootstrap, achei mais fácil, tem coisa lá que te faz ganhar tempo, mas compreendi o código -- >

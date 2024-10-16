@@ -71,7 +71,7 @@ body {
 }
 #txt {
     font-family: 'Roboto', sans-serif;
-    margin-top: -20px;
+    margin-top: 2px;
     color: rgb(255, 255, 255);
     font-size: 30px;
     display: flex;
@@ -101,4 +101,19 @@ body {
 .border-background a {
     color: white;
     text-decoration: none;
+}
+
+#erro {
+    display: none;
+    color: rgb(255, 0, 0);
+    
+    font-size: 16px;
+    margin-left: 115px;
+}
+
+#sucesso {
+    display: none;
+    color: green;
+    font-size: 20px;
+    margin-left: 140px;
 }
